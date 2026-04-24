@@ -115006,8 +115006,8 @@ A.aqX.prototype={
 $1(a){var s,r,q,p,o,n,m,l,k,j,i,h=A.c([],t.pB),g=J.ay(a),f=g.i(a,"photos")
 if(f==null){s=t.z
 f=A.q(s,s)}s=t.N
-r=[A.Q(["key","avant","label","Avant"],s,s),A.Q(["key","arriere","label","Arri\xe8re"],s,s),A.Q(["key","cote_gauche","label","Gauche"],s,s),A.Q(["key","cote_droit","label","Droit"],s,s),A.Q(["key","interieur","label","Int\xe9rieur"],s,s),A.Q(["key","tableau_de_board","label","T. Bord"],s,s)]
-for(s=J.ay(f),q=this.a,p=0;p<6;++p){o=r[p]
+r=[A.Q(["key","avant","label","Avant"],s,s),A.Q(["key","photo_cote_droit_avant","label","Avant Droit"],s,s),A.Q(["key","photo_cote_gauche_avant","label","Avant Gauche"],s,s),A.Q(["key","arriere","label","Arri\xe8re"],s,s),A.Q(["key","photo_cote_droit_arriere","label","Arri\xe8re Droit"],s,s),A.Q(["key","photo_cote_gauche_arriere","label","Arri\xe8re Gauche"],s,s),A.Q(["key","interieur_1","label","Int\xe9rieur 1"],s,s),A.Q(["key","interieur_2","label","Int\xe9rieur 2"],s,s)]
+for(s=J.ay(f),q=this.a,p=0;p<8;++p){o=r[p]
 n=s.i(f,o.i(0,"key"))
 if(n!=null&&J.cb(n).length!==0){m=o.i(0,"label")
 m.toString
